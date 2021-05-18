@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<section>
+  <article>
+    <div class="forms-head">  
+      <h1>Learn to code by watching</h1>
+      <p>See how experience developers solve problem in real-time.Watching scripted tutorial is great but understanding how experienced developers think is invaluable</p>
+    </div>
+    <div class="form-container">
+      <div class="text">
+        <p><b>Try it for free for 7days</b> then $20/m, thereafter</p>
+      </div>
+    <form action="">
+      <div class="form-control">
+        <input type="text" name="name" id="name" class="form-creation" placeholder="First Name" onsubmit="function error1()" required />
+      </div>
+      <div class="form-control">
+        <input type="text" name="name" id="lastname" class="form-creation" placeholder="Last Name" onsubmit="function error2()" required />
+      </div>
+      <div class="form-control">
+        <input type="emailfield" value="me@example.test" autocomplete="username" name="email" id="email" class="form-creation" placeholder="Email Address" onsubmit="function error3()" required />
+      </div>
+      <div class="form-control">
+        <input type="password" placeholder="Password" autocomplete="current-password" name="psw" onsubmit="function error4()" required />
+      </div>  
+      <button type="submit">CLAIM YOUR FREE TRIAL</button>
+      <p class="term">By clicking the button, you are agreeing to our <b><span>Terms and Services</span></b></p>
+    </form>
+  </div>
+  </article>
+
+</section>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Motlalepula Sello</a>.
+    </p>
+  </footer>
+</body>
+<script src="script.js"></script>
+</html>
